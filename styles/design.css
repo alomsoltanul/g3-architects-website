@@ -1,0 +1,43 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: rgba(255, 144, 14, 0.10);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 35px 0;
+    width: 1200px;
+}
+.menu-logo{
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-items li{
+    margin-right: 15px;
+    list-style: none;
+}
+.menu-items li a{
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+}
